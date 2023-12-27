@@ -1,0 +1,109 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(167, 168, 170, 0.932);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out; /* Add a fade-in transition effect */
+}
+
+.modal-content {
+  background-color: rgb(72, 131, 187);
+  padding-top: 40px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add a transform and fade-in transition effect */
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 9px;
+  cursor: pointer;
+  font-size: 25px; /* Increase the close button size */
+}
+
+/* Add hover effect for close button */
+.close:hover {
+  color: #ff0000; /* Change the close button color on hover */
+}
+.CheckCircleOutlinedIcon {
+  color: green;
+}
+
+/* delete cate */
+.modal1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(175, 174, 174, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out; /* Add a fade-in transition effect */
+}
+
+.modal-content1 {
+  background-color: #d5cfcf;
+  padding-top: 40px;
+  width: 400px;
+  height: 180px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add a transform and fade-in transition effect */
+}
+
+.close1 {
+  position: absolute;
+  top: 0px;
+  right: 9px;
+  cursor: pointer;
+  font-size: 25px; /* Increase the close button size */
+}
+
+/* Add hover effect for close button */
+.close1:hover {
+  color: #ff0000; /* Change the close button color on hover */
+}
+.ErrorOutlinedIcon1 {
+  color: rgb(230, 12, 12);
+ 
+
+
+}
+.modal-content5 {
+  background-color:rgb(214, 212, 208);
+  padding-top: 40px;
+  width: 600px;
+  height:180px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a box shadow for depth */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add a transform and fade-in transition effect */
+}

@@ -1,0 +1,107 @@
+.sidebar {
+    display: flex;
+    width: 280px;
+    padding: var(--main-system-16-px, 16px) 0px 24px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--main-system-16-px, 16px);
+    align-self: stretch;
+}
+
+.sidebarstyle {
+    border-right: 1px solid var(--stroke-light-base, #E5E5E7);
+    background: var(--background-light-base-main, #FFF);
+}
+
+
+.section1 {
+    display: flex;
+    padding: 0px 28px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.text1{
+    display: flex;
+    height: 58px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+.text1Style{
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+
+.typography1 {
+
+    color: var(--text-icons-light-base-main, #323539);
+    /* font-family: Inter; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.typographyEmail {
+    color: var(--text-icons-light-base-second, #858C95);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.1px;
+}
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--main-system-16-px, 16px);
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.text2 {
+    display: flex;
+    height: 46px;
+    padding: 0px 28px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.typography2 {
+
+
+    color: var(--text-icons-light-base-second, #858C95);
+
+    /* Text M / Semibold */
+    /* font-family: Inter; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 146.667% */
+}
+
+
+.section3 {
+    display: flex;
+    width: 280px;
+    padding: var(--main-system-16-px, 16px) 0px 24px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--main-system-16-px, 16px);
+    align-self: stretch;
+}
+
+
+.text3 {
+    display: flex;
+    height: 46px;
+    padding: 0px 28px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}

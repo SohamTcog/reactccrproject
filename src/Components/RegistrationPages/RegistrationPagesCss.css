@@ -1,0 +1,57 @@
+/* Registration pages CSS */
+
+/* Login Form CSS For all Login Pages */
+
+.container{
+    text-align: center;
+    box-shadow: 0px 4px 9px rgba(71, 71, 71, 0.2);
+  }
+  .loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 9px rgba(71, 71, 71, 0.2);
+  }
+
+  .form .TextField {
+    margin-bottom: 20px;
+
+  }
+
+
+  .loginForm .Button {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .loginForm .Button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .registrationForm{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .registrationForm .Button{
+    background-color: #007bff;
+    color: #fff; 
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+  }
+  .buttonSaveResponse{
+    margin: auto;
+  }

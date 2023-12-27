@@ -1,0 +1,41 @@
+/* General styles for centering content */
+.divAboveHistoryTable,
+.historyTableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 15px; /* Add some top margin for spacing */
+  padding-bottom: 15px;
+  background-color: #004176;
+}
+.historyTableTable {
+  border: 3px solid rgb(0, 0, 0);
+  max-width: 800px; /* Increase the max-width to your desired value */
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Style the table rows and cells */
+.historyTableTable tr:nth-child(even) {
+  background-color: #bbc9d4;
+}
+
+.historyTableTable th,
+.historyTableTable td {
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+/* Center align the content in table cells */
+.historyTableTable th {
+  background-color: #004176; /* Header background color */
+  color: rgb(255, 255, 255);
+}
+
+/* Add transition for a smooth hover effect */
+.historyTableTable tr {
+  transition: background-color 0.3s ease;
+}
